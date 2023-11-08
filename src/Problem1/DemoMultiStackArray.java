@@ -1,6 +1,6 @@
 package Problem1;
 
-public class Demo {
+public class DemoMultiStackArray {
     public static void main(String[] args) {
         //creating new MultiStackArray object
         MultiStackArray multiStackArray = new  MultiStackArray(20);
@@ -9,6 +9,8 @@ public class Demo {
         //pushing some random keys
         multiStackArray.push(0,90);
         multiStackArray.push(0, 12);
+
+
         multiStackArray.push(1, 43);
         multiStackArray.push(1, 43);
 
